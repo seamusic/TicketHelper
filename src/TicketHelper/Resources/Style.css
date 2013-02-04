@@ -1,0 +1,16 @@
+body{margin:0px; background:#666666; overflow:auto}
+.table_list{ margin-bottom:10px; font-size:12px; background:#9EB6CE;}
+.table_list th{ font-size:14px; font-weight:bold; color:#155BA3; text-align:left; padding-left:18px; height:34px; background:url(../images/table_th_bg.jpg) repeat-x top;}
+.table_list td{ background:#fff; height:20px; padding-left:5px; line-height:20px;}
+.table_th2 td{ background:#E8F0F9; padding-left:5px; color:#155BA3; font-weight:bold;line-height:25px;}
+.table_th3 td{ background:#E8F0F9; padding-left:5px; color:#155BA3; font-weight:bold;}
+.table_zpj td{ text-align:right; color:#FF0000; font-size:16px; font-weight:bold; background:#E8F0F9;}
+
+.table_clist{ margin-bottom:10px; font-size:12px; background:#9EB6CE;}
+.table_clist th{ font-size:14px; font-weight:bold; color:#155BA3; text-align:center; height:34px; background:url(../images/table_th_bg.jpg) repeat-x top;}
+.table_clist td{ background:#fff; height:30px; text-align:center; padding:6px 8px; line-height:25px;}
+.table_clist a{ margin-bottom:5px; margin-right:5px;}
+.table_plgq td{ padding-right:10px; background:#E8F0F9;}
+.table_12px th{ font-size:12px; text-align:left;}
+.gray.td {color:#999999;}
+.gray .blue_bold{color:#999999;}

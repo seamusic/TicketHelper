@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TicketHelper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LogOnPostUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/loginAction.do?method=login</Value>
+    </Setting>
+    <Setting Name="LogOnUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/loginAction.do?method=init</Value>
+    </Setting>
+    <Setting Name="TestSessionUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/main.jsp</Value>
+    </Setting>
+    <Setting Name="QuerySingleActionUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/order/querySingleAction.do</Value>
+    </Setting>
+    <Setting Name="OTSWebMain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/main.jsp</Value>
+    </Setting>
+    <Setting Name="ConfirmPassengerActionUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/order/confirmPassengerAction.do</Value>
+    </Setting>
+    <Setting Name="ValidateCodeUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/passCodeAction.do</Value>
+    </Setting>
+    <Setting Name="LoginUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/loginAction.do</Value>
+    </Setting>
+    <Setting Name="OrderAction" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/order/myOrderAction.do</Value>
+    </Setting>
+    <Setting Name="PassengerUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dynamic.12306.cn/otsweb/passengerAction.do</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PassWord" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ServerTimeUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.beijing-time.org/time.asp</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
