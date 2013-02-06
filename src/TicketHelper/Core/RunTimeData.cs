@@ -37,18 +37,21 @@ namespace TicketHelper
             CookieStoragePath = AppDomain.CurrentDomain.BaseDirectory + "savedcookie.txt";
             try
             {
-                using (TextReader tr = new StreamReader(CookieStoragePath, Encoding.UTF8))
+                if (File.Exists(CookieStoragePath))
                 {
-                    string line = null;
-                    int count = 0;
-                    while ((line = tr.ReadLine()) != null)
+                    using (TextReader tr = new StreamReader(CookieStoragePath, Encoding.UTF8))
                     {
-                        var cookie = JSON.decode<Cookie>(line);
-                        cookie.Expires = DateTime.Now.AddMonths(6);
-                        RunTimeData.Cookies.Add(cookie);
-                        count++;
+                        string line = null;
+                        int count = 0;
+                        while ((line = tr.ReadLine()) != null)
+                        {
+                            var cookie = JSON.decode<Cookie>(line);
+                            cookie.Expires = DateTime.Now.AddMonths(6);
+                            RunTimeData.Cookies.Add(cookie);
+                            count++;
+                        }
+                        IsCookieLoaded = count > 0;
                     }
-                    IsCookieLoaded = count > 0;
                 }
             }
             catch
